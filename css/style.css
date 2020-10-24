@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Tahoma, sans-serif;
+}
+.container {
+	width: 100%;
+	height: 104vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/background-img.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.menu {
+  text-align: center;
+}
+.menu ul {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  list-style: none;
+  color: #333333;
+}
+.menu ul li {
+	margin: 15px;
+	padding: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.active, .menu ul li:hover {
+    background: #e5e5e5;
+    border-radius: 3px;
+}
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.columns {
+	flex-basis: 50%;
+}
+h1 {
+	color: #ffffff;
+	font-size: 100px;
+}
+h2 {
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 15px;
+	padding-top: 20px;
+}
+.card {
+	width: 200px;
+	height: 230px;
+	display: inline-table;
+	border-radius: 10px;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1 {
+	background-image: url(../img/img1.jpg);
+}
+.card2 {
+	background-image: url(../img/img2.jpg);
+}
+.card3 {
+	background-image: url(../img/img3.jpg);
+}
+.card4 {
+	background-image: url(../img/img4.jpg);
+}
+
+.card:hover {
+	transform: translateY(-10px);
+}
+h5 {
+	color: #000000;
+	text-shadow: 0 0 5px #999;
+}
+.description {
+	margin-bottom: -300px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	height: 100%;
+	background-color: #d5dae8;
+}
+.kherson {
+	max-width: 1140px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-bottom: 50px;
+	padding: 55px 0;
+}
+.paragraph {
+	margin-bottom: 50px;
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+}
+.title-paragraph {
+	background: url(/themes/builtin/css/assets/blue-pattern.png) repeat-x;
+    background-size: 100%;
+    padding-top: 30px;
+    font-size: 28px;
+    font-family: "Barlow Condensed",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 55px auto;
+    position: relative;
+}
+.title-after {
+	content: " ";
+	display: block;
+	width: 90px;
+	height: 4px;
+	background: linear-gradient(90deg, rgba(159,216,237,1) 0%, rgba(109,227,110,1) 100%);;
+	position: relative;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -45px;
+}
+.title-paragraph ::after {
+	content: " ";
+	display: block;
+	background-color: #F0F2FA;
+	height: 2px;
+	width: 280px;
+	position: absolute;
+	left: 50%;
+	bottom: -22px;
+	margin-left: -140px;
+	background-repeat: no-repeat;
+	box-sizing: inherit;
+}
+.paragraph-text {
+	margin: 0 195px;
+	font-size: 20px;
+	line-height: 1.75;
+	color: #3A3B41;
+}
+.paragraph-text p1 {
+	margin-bottom: 30px;
+}
+.paragraph-text ol {
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+.paragraph-text li {
+	list-style: decimal inside;
+	font-weight: bold;
+}
+.img {
+	width: 80%;
+	height: 100%;
+	margin-bottom: 20px;
+}
